@@ -18,7 +18,7 @@ type Log struct {
 var db *sql.DB
 
 func init() {
-	db, _ = sql.Open("sqlite3", "./tea.db")
+	db, _ = sql.Open("sqlite3", "./log.db")
 }
 
 func logWindow() {
